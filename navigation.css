@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+  float: left;
+  display: block;
+  padding: 8px;
+}
+
+.expand, .contract{
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+  color: #555;
+  }
+
+.expand:hover, .contract:hover {
+  color: yellow;
+}
+
+li a:hover {
+  background-color: #555;
+    color: teal;
+}
